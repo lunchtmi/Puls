@@ -10,6 +10,22 @@ body
 	font-family: "Arial";
 	font-size: 16px;
 }
+footer
+{
+	background: #22BCE0;
+	text-align: center;
+	color: white;
+	padding: 1em;
+
+}
+footer p:first-child
+{
+	margin: 0;
+}
+footer p:last-child
+{
+	margin-top: 0;
+}
 header
 {
 	
@@ -71,7 +87,8 @@ nav ul #publicar_nav a
 {
 	background: #22BCE0;
 	border-radius: 5px;
-	padding: 0.8em;
+	box-shadow: rgba(0,0,0,0.5) 5px 5px 20px;
+	padding: 0.8em 0.5em;
 	font-style: italic;
 	text-decoration: none;
 	text-shadow: rgba(0,0,0,0.5) 2px 2px 5px;
@@ -87,3 +104,4 @@ nav ul li a
 	display: block;
 	padding: 0.5em 0;
 }
+
