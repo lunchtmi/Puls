@@ -25,15 +25,22 @@
 
 .icon-pluma:before {
 	content: "\e600";
+	margin-right: 0.5em;
 }
 .icon-estrella:before {
 	content: "\e601";
-}
-.icon-f-abajo:before {
-	content: "\e602";
+	color: #FFBE2C;
+	margin-right: 0.4em;
+	position: relative;
+	top: .1em;
 }
 .icon-f-arriba:before {
+	content: "\e602";
+	color: #DD4F24;	
+}
+.icon-f-abajo:before {
 	content: "\e603";
+	color: green;
 }
 
 
@@ -116,9 +123,9 @@ header #logo img
 }
 nav
 {
-	background: #80BCA3;
+	background: #2080C0; /* #2080C0  80BCA3*/
 	box-shadow: rgba(0,0,0,0.5) 0px 0px 10px;
-	padding: 0 0.5em;
+	padding: 0 6em 0 0;
 	position: relative;
 }
 nav ul
@@ -223,6 +230,10 @@ nav ul li a
 	right: 2.5%;
 	top: 100%;
 	width: 90%;
+}
+#contenido .item .votacion a
+{
+	text-decoration: none;
 }
 #contenido .item .votacion .comentarios_item,
 #contenido .item .votacion .guardar_item
