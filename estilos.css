@@ -240,3 +240,19 @@ nav ul li a
 {
 	float: right;
 }
+@media screen and (min-width: 800px){
+	
+	#contenido{
+		overflow: hidden;
+	}
+	#contenido .item{
+		width: 49%;
+		float: left;
+		
+	}
+	#contenido .item:nth-child(odd){
+		margin-right: 2%;
+
+	}
+
+}
