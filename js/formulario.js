@@ -1,7 +1,3 @@
-alert("hola bienvenido a la nueva web");
-
-
-
 var $form = $('#formulario'),
 	$titulo = $('#titulo'),
 	$url = $('#url'),
@@ -16,6 +12,20 @@ function mostrarFormulario(){
 }
 
 function agregarPost(){
+	var url = $url.val(),
+		titulo = $titulo.val(),
+		$clone = $post.clone();
+
+	$clone.find('.titulo_item a')
+		.text(titulo)
+		.attr('href', url);
+		
+	$clone.hide();
+
+	$list.prepend($clone);
+
+	$clone.fadeIn();
+
 	return false;
 }
 // Eventos
